@@ -1,6 +1,6 @@
 # 🧠 CogDiag: Uncertainty-Driven Bias Mitigation Expert System
 
-CogDiag is a clinical decision-support and expert system framework equipped with a robust **Cognitive Swarm** architecture. It acts as an interpretability and bias-mitigation layer to defend AI models from cognitive biases like **Anchoring**, **Availability Heuristics**, and **Base-Rate Neglect**.
+CogDiag is a clinical decision-support and expert system framework equipped with a robust **Cognitive Swarm** architecture. It acts as an interpretability and bias-mitigation layer to defend AI models from cognitive biases like **Anchoring**, **Availability Heuristics**, and **Base-Rate Neglect**
 
 ## 🚀 Key Features
 - **Real-Time Bias Mitigation**: Dynamically adjusts language model confidence by penalizing identified cognitive biases, converting overconfident conclusions to careful inferences.
