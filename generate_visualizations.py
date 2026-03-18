@@ -19,7 +19,7 @@ def generate_visualizations():
     sns.violinplot(data=df, x="Model", y="Epistemic_Uncertainty", palette="muted", inner="quartile")
     plt.title("Epistemic Uncertainty Distribution Across Agentic Engines (N=1200)")
     plt.ylabel("Epistemic Uncertainty (%)")
-    plt.savefig("/home/om/.gemini/antigravity/brain/1ceb8edc-367c-4e68-9ed3-b68219cbff93/epistemic_uncertainty_violin.png", dpi=300, bbox_inches="tight")
+    plt.savefig("epistemic_uncertainty_violin.png", dpi=300, bbox_inches="tight")
     plt.close()
 
     # 2. KDE Plot
@@ -29,7 +29,7 @@ def generate_visualizations():
     plt.title("Density Shift: Algorithmic Penalization of Cognitive Overconfidence")
     plt.xlabel("Diagnostic Confidence (%)")
     plt.legend()
-    plt.savefig("/home/om/.gemini/antigravity/brain/1ceb8edc-367c-4e68-9ed3-b68219cbff93/confidence_density_shift.png", dpi=300, bbox_inches="tight")
+    plt.savefig("confidence_density_shift.png", dpi=300, bbox_inches="tight")
     plt.close()
     
     # 3. Bias Interception
@@ -41,7 +41,7 @@ def generate_visualizations():
         plt.title("Differential Bias Interception Rates by Generative Engine")
         plt.ylabel("Successful Interceptions")
         plt.xlabel("Cognitive Bias Category")
-        plt.savefig("/home/om/.gemini/antigravity/brain/1ceb8edc-367c-4e68-9ed3-b68219cbff93/bias_interception_rates.png", dpi=300, bbox_inches="tight")
+        plt.savefig("bias_interception_rates.png", dpi=300, bbox_inches="tight")
         plt.close()
 
     # 4. NEW: Condition-Specific Performance Breakdown
@@ -50,7 +50,7 @@ def generate_visualizations():
     plt.title("Mitigated Confidence across Diverse Clinical Presentations")
     plt.ylabel("Mean Mitigated Confidence (%)")
     plt.xticks(rotation=45, ha="right")
-    plt.savefig("/home/om/.gemini/antigravity/brain/1ceb8edc-367c-4e68-9ed3-b68219cbff93/condition_performance.png", dpi=300, bbox_inches="tight")
+    plt.savefig("condition_performance.png", dpi=300, bbox_inches="tight")
     plt.close()
 
     # 5. NEW: Ablation Proxy (Error Bars for ToT Impact)
@@ -60,7 +60,7 @@ def generate_visualizations():
     plt.title("Ablation Analysis: System Efficacy With and Without Swarm Mediation")
     plt.ylabel("Average Predictive Reliability")
     plt.legend()
-    plt.savefig("/home/om/.gemini/antigravity/brain/1ceb8edc-367c-4e68-9ed3-b68219cbff93/ablation_study.png", dpi=300, bbox_inches="tight")
+    plt.savefig("ablation_study.png", dpi=300, bbox_inches="tight")
     plt.close()
 
     print("✅ Expanded high-impact visual diagrams exported successfully!")
